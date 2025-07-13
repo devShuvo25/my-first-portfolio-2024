@@ -28,7 +28,7 @@ h1{
 }
 .nav_bar{
     background-color:#0c6168;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .nav_logo{
     width:100%;
@@ -170,7 +170,7 @@ button{
     transition: 0.2s;
 }
 button:hover{
-   background-color:rgb(104, 26, 26);
+   background-color:#f7b733 ;
    border:none;
    color:#fff;
    cursor: pointer;
@@ -195,13 +195,11 @@ button:hover{
       width:96%;
       margin: 10px auto;
       margin-bottom:10px;
-      background-color:#ddd;
+      background-color:#ffff;
+      box-shadow: 2px 2px 5px #dddd;
+      margin-bottom: 30px;
       border-radius: 8px;
       transition: 0.3s;
-    }
-    .card_design_class:hover{
-     width: 98%;
-     border:4px solid #0c6168;
     }
     .mini_icon_area{
       text-align:center;
@@ -398,11 +396,23 @@ input[type="submit"]{
   transition: 0.2s;
   
 }
+input[type="reset"]{
+  width:70px;
+  display: inline-block;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.2s;
+  
+}
 input[type="submit"]:hover{
-background-color: rgb(104, 26, 26);
+background-color: #f7b733 ;
 color:#ffff;
 
 }
+ .mini_icon_area img{
+    border-radius:50%;
+    border:5px solid #0c6168;
+ }
 input[class="send_button"]{
   margin-right: 50px;
   margin-top:20px;

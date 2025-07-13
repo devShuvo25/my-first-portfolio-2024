@@ -6,30 +6,33 @@ body{
     font-family: "Fira Sans", sans-serif;
     font-weight: 100;
     font-style: normal;
+
 }
 .nav_bar{
     display: flex;
     padding-bottom: 0;
+    justify-content: space-between;
 }
 .nav_logo{
-    width:20%;
+    width:100px;
     text-align:left;
     margin:auto 0;
     margin-left: 20px;
 }
 .nav_heading{
-    width:40%;
-    text-align: center;
+    width:20%;
+    text-align: left;
     margin:auto 0;
 } .nav_heading h1{
     margin: 0;
+    text-align: left;
     padding: 0;
 }
 .nav_bar p{
 
     margin-bottom:0px;
     padding: 0;
-    text-align: center;
+    text-align:left;
 }
 .nav_menu{
     width:40%;
@@ -53,7 +56,9 @@ body{
 }
 
 /* Profile design starts form here */
-
+.portfolio{
+    background-color: #FFFF;
+}
 .portfolio_desc{
     width:60%;
     margin: 100px auto;
@@ -111,11 +116,10 @@ button{
 .card_design_class{
     width:32%;
     margin: 15 1%;
+    background-color:#FFFF;
+    box-shadow: 2px 2px 5px #dddd;
 }
-.card_design_class:hover{
-    width:32%;
-    border:4px solid #0c6168;
-   }
+
    .about_me {
     background-color: #0c6168;
     padding: 4%;
@@ -131,6 +135,10 @@ button{
  .personal_area_common p{
    margin-left: 40px;
  }
+ .mini_icon_area img{
+    border-radius:50%;
+    border:5px solid #0c6168;
+ }
  textarea{
     min-width:350px;
     max-width:350px;
@@ -138,6 +146,7 @@ button{
  }
  footer{
     height:150px;
+    background-color: rgb(16, 31, 51);
  }
  footer a{
     display: inline-block;
